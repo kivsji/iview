@@ -159,7 +159,7 @@
             },
             handleInputDelete () {
                 if (this.multiple && this.selectedMultiple.length && this.query === '') {
-                    this.removeTag(this.selectedMultiple[this.selectedMultiple.length - 1]);
+                    //this.removeTag(this.selectedMultiple[this.selectedMultiple.length - 1]);
                 }
             },
             onHeaderClick(e){
